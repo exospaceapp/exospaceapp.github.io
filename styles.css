@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+ul{
+    font-size: 1.5em;
+    list-style: none; 
+    line-height: 2rem;
+}
+
+.jumbotron{
+    display: flex;
+}
+
+.jumbo-text-container{
+    color:white;
+    width: 40%; 
+    margin:auto auto;
+
+}
+
+.exotopia-h1{
+    padding:0 10px; 
+    font-size: 4rem; 
+    color: #f5d063; 
+    text-align: center;
+}
+
+
+.p-styles{
+    font-size: 1.2rem; 
+    line-height: 1.7rem;
+}
+
+.sec-life-container{
+    display: flex; 
+    padding: 20px 0;
+}
+
+.img-text-center{
+    font-size: 1.4; 
+    text-align: center;
+
+}
+
+
+
+
+/* Responsive Design for Small Screens */
+@media only screen and (max-width: 768px) {
+    .jumbotron{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jumbotron img{
+        width: 100%;
+    }
+    .jumbo-text-container{
+        width: 100%;
+        margin:0 0;
+    }
+
+    .p-styles{
+        padding: 0 1.2rem;
+    }
+
+    .sec-life-container{
+        display: block;
+    }
+
+    .life-img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .sec-life-container h2{
+        text-align: center;
+    }
+}
