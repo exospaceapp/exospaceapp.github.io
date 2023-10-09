@@ -75,6 +75,48 @@ ul{
     margin: 0 auto 50px;
 }
 
+.sec-team-container{
+    background-color: #020b1a; 
+    color: #e0e0e2; 
+    font-family: Arial, sans-serif; 
+    padding: 50px; 
+    text-align: center;
+}
+
+.sec-team-container h1{
+    font-size: 2rem;
+    color: #f5d063; 
+    margin-bottom: 20px;
+}
+.sec-team-container p{
+    max-width: 800px; 
+    margin: 0 auto 50px; 
+    color: #ab83a1; 
+    font-size: 1.2rem;
+}
+
+.team-cards-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: 
+    space-around; 
+    gap: 20px;
+}
+
+.team-card-container{
+    flex: 0 0 calc(16% - 10px);
+    background-color: #6a0572; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.research-container{
+    display: flex;
+    gap:10px;
+}
+
+
 /* Responsive Design for Small Screens */
 @media only screen and (max-width: 768px) {
     .jumbotron{
@@ -119,8 +161,25 @@ ul{
         display: block;
     }
     
-    .team-img-container{
+    .team-img-container img{
         width: 100%;
-        margin:0 0;
+    }
+
+    .team-cards-container{
+        display: block;
+    }
+
+    .team-card-container{
+        margin: 1.2rem 0;
+    }
+    .research-container{
+        display: block;
+    }
+    .figma-frame{
+        width: 100%;
+    }
+
+    .research-text-container{
+        padding: 1.2rem 1.2rem;
     }
 }
